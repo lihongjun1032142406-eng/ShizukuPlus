@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- r2606 V2: additional user-facing Simplified Chinese resources -->
+    <string name="settings_category_capabilities">功能</string>
+    <string name="settings_category_capabilities_summary">功能中心、Root 与兼容性</string>
+    <string name="settings_category_personalization">个性化</string>
+    <string name="settings_category_personalization_summary">主题、形状、图标、动画、主页布局和语言</string>
+    <string name="settings_category_app_interactions">应用交互</string>
+    <string name="settings_category_app_interactions_summary">手势、长按操作和安装验证</string>
+    <string name="settings_category_system">系统</string>
+    <string name="settings_category_startup_behavior">启动与行为</string>
+    <string name="settings_category_startup_behavior_summary">启动选项、看门狗、网络和活动状态</string>
+    <string name="settings_category_advanced_diagnostics">高级与诊断</string>
+    <string name="settings_category_advanced_diagnostics_summary">日志、ADB 工具和故障排查</string>
+    <string name="settings_category_about">关于</string>
+    <string name="settings_category_about_summary">版本、许可证和更新</string>
+
+    <string name="dialog_adb_discovery">正在搜索无线调试服务</string>
+    <string name="dialog_adb_discovery_message">请在“开发者选项”中启用“无线调试”。网络发生变化时，“无线调试”可能会自动关闭。\n\n注意：请勿关闭“开发者选项”或“USB 调试”，否则 Shizuku 将停止运行。</string>
+    <string name="dialog_adb_discovery_message_toggle_wireless_debugging">如果一直处于搜索状态，请尝试关闭后重新开启“无线调试”。</string>
+    <string name="dialog_adb_port">端口</string>
+    <string name="dialog_adb_invalid_port">端口必须是 1 到 65535 之间的整数。</string>
+    <string name="adb_pairing">配对</string>
+    <string name="dialog_adb_pairing_title">与设备配对</string>
+    <string name="dialog_adb_pairing_discovery">正在搜索配对服务</string>
+    <string name="dialog_adb_pairing_paring_code">配对码</string>
+    <string name="paring_code_is_wrong">配对码错误。</string>
+    <string name="cannot_connect_port">无法连接到无线调试服务。\n\n请确保 Shizuku 已加入防火墙、广告拦截器、VPN 或其他可能限制网络访问的应用的白名单。</string>
+    <string name="dialog_wireless_adb_not_enabled">无线调试尚未启用。\n注意：Android 11 之前的版本必须连接电脑才能启用无线调试。</string>
+    <string name="dialog_usb_debugging_not_enabled">USB 调试尚未启用。\n请在“开发者选项”中将其开启。</string>
+    <string name="dialog_adb_pairing_message">请按以下步骤开始配对：\n- 打开“开发者选项”\n- 启用“USB 调试”和“无线调试”\n- 点击“无线调试”文字区域\n- 点击“使用配对码配对设备”\n- 在通知中输入配对码</string>
+
+    <string name="terminal_tutorial_export_summary">将文件（%1$s、%2$s、%3$s 和 %4$s）导出到新文件夹。</string>
+    <string name="terminal_tutorial_copy_summary">这会把导出的文件复制到终端应用的私有存储中。你也可以在 &lt;font face=&quot;monospace&quot;&gt;.bashrc&lt;/font&gt; 或 &lt;font face=&quot;monospace&quot;&gt;.zshrc&lt;/font&gt; 中为 %1$s、%2$s 和 %3$s 添加别名。</string>
+</resources>
